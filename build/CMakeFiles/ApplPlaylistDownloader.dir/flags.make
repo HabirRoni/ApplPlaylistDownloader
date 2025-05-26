@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/inivious/ApplPlaylistDownloader/build/_deps/json-src/include -I/home/inivious/ApplPlaylistDownloader/build/_deps/cpr-src/include -I/home/inivious/ApplPlaylistDownloader/build/_deps/cpr-build/cpr_generated_includes -I/home/inivious/ApplPlaylistDownloader/build/_deps/curl-src/include
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -O3 -DNDEBUG -std=gnu++17 -Wno-deprecated-declarations -Wno-format-overflow -fsanitize=address -fno-omit-frame-pointer -g
 

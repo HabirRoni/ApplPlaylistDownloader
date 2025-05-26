@@ -92,6 +92,8 @@ ApplPlaylistDownloader_EXTERNAL_OBJECTS =
 
 ApplPlaylistDownloader: CMakeFiles/ApplPlaylistDownloader.dir/src/main.cpp.o
 ApplPlaylistDownloader: CMakeFiles/ApplPlaylistDownloader.dir/build.make
+ApplPlaylistDownloader: _deps/cpr-build/cpr/libcpr.so.1.10.5
+ApplPlaylistDownloader: _deps/curl-build/lib/libcurl.so.4.8.0
 ApplPlaylistDownloader: CMakeFiles/ApplPlaylistDownloader.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/inivious/ApplPlaylistDownloader/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ApplPlaylistDownloader"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ApplPlaylistDownloader.dir/link.txt --verbose=$(VERBOSE)

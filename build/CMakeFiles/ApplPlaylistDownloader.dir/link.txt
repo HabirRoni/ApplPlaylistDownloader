@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/ApplPlaylistDownloader.dir/src/main.cpp.o -o ApplPlaylistDownloader 
+/usr/bin/c++ -O3 -DNDEBUG -fsanitize=address CMakeFiles/ApplPlaylistDownloader.dir/src/main.cpp.o -o ApplPlaylistDownloader  -Wl,-rpath,/home/inivious/ApplPlaylistDownloader/build/_deps/cpr-build/cpr:/home/inivious/ApplPlaylistDownloader/build/_deps/curl-build/lib _deps/cpr-build/cpr/libcpr.so.1.10.5 _deps/curl-build/lib/libcurl.so.4.8.0 -lstdc++fs 
