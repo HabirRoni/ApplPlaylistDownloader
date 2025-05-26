@@ -1,0 +1,3 @@
+/home/inivious/ApplPlaylistDownloader/build/CMakeFiles/ApplPlaylistDownloader.dir
+/home/inivious/ApplPlaylistDownloader/build/CMakeFiles/edit_cache.dir
+/home/inivious/ApplPlaylistDownloader/build/CMakeFiles/rebuild_cache.dir
