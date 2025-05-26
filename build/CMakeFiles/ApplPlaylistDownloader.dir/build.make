@@ -92,6 +92,7 @@ ApplPlaylistDownloader_EXTERNAL_OBJECTS =
 
 ApplPlaylistDownloader: CMakeFiles/ApplPlaylistDownloader.dir/src/main.cpp.o
 ApplPlaylistDownloader: CMakeFiles/ApplPlaylistDownloader.dir/build.make
+ApplPlaylistDownloader: /usr/lib/x86_64-linux-gnu/libpython3.12.so
 ApplPlaylistDownloader: _deps/cpr-build/cpr/libcpr.so.1.10.5
 ApplPlaylistDownloader: _deps/curl-build/lib/libcurl.so.4.8.0
 ApplPlaylistDownloader: CMakeFiles/ApplPlaylistDownloader.dir/link.txt
