@@ -1,0 +1,46 @@
+# === CMake build directories ===
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === IDE-specific ===
+*.idea/
+*.vscode/
+*.code-workspace
+
+# === Compiled binaries ===
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+
+# === Object files ===
+*.o
+*.obj
+
+# === Logs and temp ===
+*.log
+*.tmp
+*.swp
+*.DS_Store
+
+# === Generated files ===
+compile_commands.json
+Testing/
+CTestTestfile.cmake
+
+# === Third-party dependencies (optional) ===
+/_deps/
+/vendor/
+
+# === JSON output (your case) ===
+playlist_data.json
+*.html
+
+build/
+venv/
